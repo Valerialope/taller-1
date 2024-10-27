@@ -1,0 +1,52 @@
+public class Automovil {
+    private String marcaVehiculo;
+    private String modeloVehiculo;
+    private String colorVehiculo;
+    private double cilindrajeVehiculo;
+
+    public Automovil(String marcaVehiculo, String modeloVehiculo, String colorVehiculo, double cilindrajeVehiculo) {
+        this.marcaVehiculo = marcaVehiculo;
+        this.modeloVehiculo = modeloVehiculo;
+        this.colorVehiculo = colorVehiculo;
+        this.cilindrajeVehiculo = cilindrajeVehiculo;
+    }
+
+    public String getMarcaVehiculo() {
+        return marcaVehiculo;
+    }
+
+    public void setMarcaVehiculo(String marcaVehiculo) {
+        this.marcaVehiculo = marcaVehiculo;
+    }
+
+    public String getModeloVehiculo() {
+        return modeloVehiculo;
+    }
+
+    public void setModeloVehiculo(String modeloVehiculo) {
+        this.modeloVehiculo = modeloVehiculo;
+    }
+
+    public String getColorVehiculo() {
+        return colorVehiculo;
+    }
+
+    public void setColorVehiculo(String colorVehiculo) {
+        this.colorVehiculo = colorVehiculo;
+    }
+
+    public double getCilindrajeVehiculo() {
+        return cilindrajeVehiculo;
+    }
+
+    public void setCilindrajeVehiculo(double cilindrajeVehiculo) {
+        this.cilindrajeVehiculo = cilindrajeVehiculo;
+    }
+
+    public String detalleAutomovil() {
+        return "Marca: " + this.marcaVehiculo + "\n" +
+                "Modelo: " + this.modeloVehiculo + "\n" +
+                "Color: " + this.colorVehiculo + "\n" +
+                "Cilindraje: " + this.cilindrajeVehiculo + "\n";
+    }
+}
